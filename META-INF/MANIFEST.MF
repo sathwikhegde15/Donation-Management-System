@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Application-Name: JxBrowser
+Implementation-Title: JxBrowser
+Bundle-Description: JxBrowser 6.23.1 OSGi bundle
+Bundle-SymbolicName: com.teamdev.jxbrowser.chromium
+Implementation-Version: 6.23.1
+Bundle-ManifestVersion: 2
+Import-Package: javax.swing,javax.swing.filechooser,com.teamdev.jxbrow
+ ser.chromium.internal.res
+Implementation-Vendor: TeamDev Ltd.
+Export-Package: com.teamdev.jxbrowser.chromium,com.teamdev.jxbrowser.c
+ hromium.dom,com.teamdev.jxbrowser.chromium.dom.events,com.teamdev.jxb
+ rowser.chromium.dom.internal,com.teamdev.jxbrowser.chromium.events,co
+ m.teamdev.jxbrowser.chromium.internal,com.teamdev.jxbrowser.chromium.
+ internal.ipc,com.teamdev.jxbrowser.chromium.internal.ipc.resources,co
+ m.teamdev.jxbrowser.chromium.internal.ipc.events,com.teamdev.jxbrowse
+ r.chromium.internal.ipc.message,com.teamdev.jxbrowser.chromium.javafx
+ ,com.teamdev.jxbrowser.chromium.javafx.internal,com.teamdev.jxbrowser
+ .chromium.javafx.internal.dialogs,com.teamdev.jxbrowser.chromium.swin
+ g,com.teamdev.jxbrowser.chromium.swing.internal,com.teamdev.jxbrowser
+ .chromium.swing.internal.events
+Bundle-Name: JxBrowser 6.23.1
+Bundle-Version: 6.23.1
+Permissions: all-permissions
+Codebase: *
+Multi-Release: true
+Created-By: TeamDev Ltd.
+
